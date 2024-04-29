@@ -23,3 +23,15 @@ h2~p{
     text-transform: uppercase;
     color: blue;
 }
+.mighty li + li{
+    background-color: red;
+}
+.mighty li + li + li{
+    background-color: inherit;
+}
+.mighty li + li + li + li{
+    background-color: green;
+}
+.mighty li + li + li + li + li{
+    background-color: inherit;
+}
