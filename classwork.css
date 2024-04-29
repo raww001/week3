@@ -13,7 +13,7 @@ color: white;
 .nuga{
     background-color: moccasin;
 }
-h2+p{
+h2~p{
     font-weight: 700;
 }
 .ben>h2{
@@ -22,10 +22,4 @@ h2+p{
 .mighty li::first-letter{
     text-transform: uppercase;
     color: blue;
-}
-.mighty li:nth-child(2){
-    background-color: red;
-}
-.mighty li:nth-child(4){
-    background-color: green;
 }
